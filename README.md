@@ -39,7 +39,6 @@ Nowhere in prose, deliberately.
 
 | what | where it is enforced |
 |---|---|
-| the tree may not gain prose | `.prose-ratchet` + `.github/workflows/prose.yml`, the guard in hf7y/etalon |
 | this repo is an agent project | `.agent-project`, read by realisateur's verb build |
 | media stays out of git | `.gitignore` |
 
