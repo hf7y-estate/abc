@@ -5,7 +5,7 @@
   % tempo    = "Quarter = 60"   % string, not a number — for display only
 }
 
-oneMone_vn = \transpose c c' {
+twoMone_vn = \transpose c c' {
   \clef "treble"
   \time 4/4
 
@@ -20,7 +20,7 @@ oneMone_vn = \transpose c c' {
   b'!1~\fp\>^\arrowSpan #ord #sp | b'1\pp\glissando | \square \ss b'1\stopTextSpan\aln | \ss R1\! | R1 \bar "|."
 }
 
-oneMone_vci = \transpose c c, {
+twoMone_vci = \transpose c c, {
   \clef "bass"
   \time 4/4
 
@@ -38,7 +38,7 @@ oneMone_vci = \transpose c c, {
   <d' fis'\harmonic>1~\fp\>^\sp | <fis'\harmonic d>1\pp\glissando | \half-harmonic fis'?1\aln | R1\! | R1 \bar "|."
 }
 
-oneMone_vcii = \transpose c c, {
+twoMone_vcii = \transpose c c, {
   \clef "bass"
   \time 4/4
 
@@ -60,7 +60,7 @@ oneMone_vcii = \transpose c c, {
   \ss R1\! | \bar "|."
 }
 
-oneMone_cb = \transpose c c,, {
+twoMone_cb = \transpose c c,, {
   \clef "bass_8"
   \time 4/4
 
