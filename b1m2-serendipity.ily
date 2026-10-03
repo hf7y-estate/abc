@@ -1,10 +1,10 @@
-%%% 1m2.ily
-%%% Cue: 1M2 — ii. Water
+%%% b1m2-serendipity.ily
+%%% Cue: B1M2 — ii. Water
 %%% Pure musical data.
 
 \header {
   piece    = "Water"
-  opus     = "1M2"
+  opus     = "B1M2"
   tempo    = "Quarter = 60"   % string, not a number — for display only
 }
 
