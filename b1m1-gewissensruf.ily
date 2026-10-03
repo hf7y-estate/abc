@@ -1,7 +1,7 @@
-%%% 1m1.ily
+%%% b1m1-gewissensruf.ily
 \header {
   piece    = "Coin"
-  opus     = "1M1"
+  opus     = "B1M1"
   % tempo    = "Quarter = 60"   % string, not a number — for display only
 }
 
