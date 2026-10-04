@@ -3,7 +3,7 @@
 Music for **Abecedarian** — three feature films meant to play simultaneously.
 This repo holds the notation. Everything else lives where it is named below.
 
-    lilypond -dno-point-and-click 1m.ly     # from the repo root; the paths are relative
+    lilypond -dno-point-and-click b1m-plunge.ly     # from the repo root; the paths are relative
 
 ## Naming
 
@@ -15,11 +15,12 @@ A reel is an act. Cue numbers restart per reel, so the film letter is part of
 the identity, not decoration. A file's prefix must agree with its own
 `\header opus` field — the one mismatch this repo has actually shipped.
 
-**Not yet applied.** The files are still `1m.ly`, `1m1.ily`, `1m2.ily`,
-`2m.ly`, `2m1.ily`, and their `opus` fields carry no film letter. Tracked in
-[#15](https://github.com/hf7y/abc/issues/15); the reel-2 pair waits on
+**Partially applied.** Reel 1 is `b1m-plunge.ly`, `b1m1-gewissensruf.ily`,
+`b1m2-serendipity.ily`, with `opus` fields `B1M1` / `B1M2`. Reel 2 is still
+`2m.ly`, `2m1.ily`, with no film letter on its `opus` field; it waits on
 [#2](https://github.com/hf7y/abc/issues/2), because naming a file for music
-it does not contain is a false claim like any other.
+it does not contain is a false claim like any other. Tracked in
+[#15](https://github.com/hf7y/abc/issues/15).
 
 ## Where the rest of it is
 
