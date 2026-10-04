@@ -39,7 +39,7 @@ cbTrack   = { \twoMone_cb   }
       %   \new Staff \with { instrumentName = "1" } \vciTrack
       %   \new Staff \with { instrumentName = "2" } \vciiTrack
       % >>
-      \new Staff \with { instrumentName = "Cb" } \cbTrack
+      \new StringStaff \with { instrumentName = "Cb" } \cbTrack
     >>
   }
 }

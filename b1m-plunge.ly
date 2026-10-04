@@ -29,15 +29,15 @@ cbTrack   = { \oneMone_cb   \oneMtwo_cb   }
   \score {
     \header { piece = "i. Coin" }
     \new StaffGroup <<
-      \new Staff \with { instrumentName = "Vn" } \vnTrack
+      \new StringStaff \with { instrumentName = "Vn" } \vnTrack
       \new StaffGroup \with {
         systemStartDelimiter = #'SystemStartBrace
         instrumentName       = "Vc"
       } <<
-        \new Staff \with { instrumentName = "1" } \vciTrack
-        \new Staff \with { instrumentName = "2" } \vciiTrack
+        \new StringStaff \with { instrumentName = "1" } \vciTrack
+        \new StringStaff \with { instrumentName = "2" } \vciiTrack
       >>
-      \new Staff \with { instrumentName = "Cb" } \cbTrack
+      \new StringStaff \with { instrumentName = "Cb" } \cbTrack
     >>
   }
 
@@ -50,15 +50,15 @@ cbTrack   = { \oneMone_cb   \oneMtwo_cb   }
            (padding          . 4)
            (stretchability   . 12))
     } <<
-      \new Staff \with { instrumentName = "Vn" } \vnTrack
+      \new StringStaff \with { instrumentName = "Vn" } \vnTrack
       \new StaffGroup \with {
         systemStartDelimiter = #'SystemStartBrace
         instrumentName       = "Vc"
       } <<
-        \new Staff \with { instrumentName = "1" } \vciTrack
-        \new Staff \with { instrumentName = "2" } \vciiTrack
+        \new StringStaff \with { instrumentName = "1" } \vciTrack
+        \new StringStaff \with { instrumentName = "2" } \vciiTrack
       >>
-      \new Staff \with { instrumentName = "Cb" } \cbTrack
+      \new StringStaff \with { instrumentName = "Cb" } \cbTrack
     >>
   }
 
