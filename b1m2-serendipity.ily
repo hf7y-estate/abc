@@ -12,7 +12,12 @@ oneMtwo_vn = \transpose c c' {
   \clef "treble"
   \time 2/2
 
-  \ss { R1 | a,1\1~\daln^\st\squareHead |
+  % Opening bar's silence computed via \cueGapTo rather than a bare R1:
+  % this cue has no picture lock yet, so "0:04" is just this cue's own
+  % written 1-measure rest at the implicit 60bpm default (see
+  % project/timing.ily) -- not a real spotting-note timecode. Replace
+  % "0:00"/"0:04" with the real cue-in/picture target once one exists.
+  \ss { \cueGapTo "0:00" "0:04" \skip 1*0 | a,1\1~\daln^\st\squareHead |
   a,1\pp\glissando\squareHead } | a,1\glissando\halfHarmonic |
   a,1~^\arrowSpan #"(tasto)" #ord | a,1~ |
   a,1~\< | a,1~\stopTextSpan |
